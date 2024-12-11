@@ -6,7 +6,7 @@ function checkSpeed(speed){
     const kmPerDemeritPoint = 5;
     
     if(speed <= speedLimit){//the speed limit is less than or equal to 70 it shall print ok 
-        console.log("Ok");
+        return("Ok");
     }else{
         const points = Math.floor(speed- speedlimit/ kmPerDemeritPoint);
         console.log('Points:$(points');
